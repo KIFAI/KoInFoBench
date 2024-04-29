@@ -1,0 +1,7 @@
+anthropic
+datasets
+google-generativeai
+openai
+python-dotenv
+requests
+tqdm
