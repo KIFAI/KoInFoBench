@@ -38,7 +38,7 @@ HYPERCLOVAX_API_KEY="YOUR OWN API KEY"
 HYPERCLOVAX_API_KEY_PRIMARY_EVAL="YOUR OWN API KEY"
 ```
 
-### Step1. Check dataset usage
+### Step 1. Check dataset usage
 
 You can directly download it with huggingface datasets.
 
@@ -48,7 +48,7 @@ dataset = load_dataset("kifai/KoInFoBench")
 
 
     
-### 2. Generating responses of instructions
+### Step2. Generating responses of instructions
 
 To generate responses from
 - A specfic model
@@ -83,7 +83,7 @@ Generated responses are saved to the output_dir as `jsonl` file (e.g. `generatio
 ...
 ```
 
-### 3. Evaluating responses automatically using GPT-4
+### Step3. Evaluating responses automatically using GPT-4
 Before running the following scripts, make sure the generated files are placed on the directory `generation` or the directory you manually specified.
 `gpt-4-0613` is the default evaluation model to judge the responses using decomposed questions. A instruction comprises multiple decomposed questions to judge whether a response is well-generated as following the instruction.
 
