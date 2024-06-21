@@ -27,7 +27,7 @@ class ModelClient:
 
     def __init__(self, init_api='all', **kwargs):
         logging.info(f"Initializing ModelClient with API setting: {init_api}")
-        self.available_api_list = ['all', 'openai', 'caude', 'gemini', 'hpx003']
+        self.available_api_list = ['all', 'openai', 'claude', 'gemini', 'hpx003']
         self.clients = {}
         self._init_api_clients(init_api)
 
